@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@metaplex-foundation/umi": "^1.2.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.2.0",
+    "@metaplex-foundation/umi-uploader-irys": "^1.2.0",
     "@solana/spl-token": "^0.4.13",
     "@solana/web3.js": "^1.98.2",
     "bs58": "^6.0.0",
@@ -7,7 +10,8 @@
   },
   "scripts": {
     "dev": "ts-node index.ts",
-    "spl_mint": "ts-node week_1/spl_mint.ts"
+    "spl_mint": "ts-node week_1/spl_mint.ts",
+    "spl_init": "ts-node week_1/spl_init.ts"
   },
   "name": "turbine_learns",
   "version": "1.0.0",
