@@ -16,21 +16,17 @@ umi.use(signerIdentity(signer));
 umi.use(irysUploader());
 
 // Fixed variable name (was imageUri[0] but variable was imageuri)
-let imageUri = "https://devnet.irys.xyz/5aF3Gpw9zMBjpxvBTmkNCJqq8BUau3HBVviemTXLvkoz";
+let imageUri = "https://gateway.irys.xyz/8UotoB9n65bGuz949DeiN6qQRn8EQsRQaNxQKnkN5igd";
 
 const metadata = {
-  "name": "My NFT",
-  "description": "This is an NFT on Solana",
+  "name": "doom",
+  "description": "DOOM THE TERMINATOR",
   "image": imageUri, // Fixed: was imageUri[0], now just imageUri
   "attributes": [
     {
-      "trait_type": "trait1",
-      "value": "value1"
+      "trait_type": "warrior",
+      "value": "warrior01"
     },
-    {
-      "trait_type": "trait2",
-      "value": "value2"
-    }
   ],
   "properties": {
     "files": [

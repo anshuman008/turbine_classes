@@ -20,7 +20,7 @@ umi.use(signerIdentity(signer));
 (async() => {
   
     try{
-       const image = fs.readFileSync(path.join(__dirname, "menu.png") )
+       const image = fs.readFileSync(path.join(__dirname, "warrior.png") )
 
        const genricfile = createGenericFile(image,"nft.png", {contentType: "image/png"});
 
